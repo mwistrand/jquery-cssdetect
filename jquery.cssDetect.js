@@ -1,0 +1,1 @@
+!function(a){"use strict";a.cssDetect=function(){var a={},b="ms,o,moz,webkit".split(",");return function(c){var d,e=!1,f=document.createElement("div").style,g=b.length-1;if(a[c])return a[c];if(c in f)return a[c]=!0,!0;for(d=c.charAt(0).toUpperCase()+c.slice(1);g>=0;){if(b[g]+d in f){e=!0;break}g-=1}return a[c]=e,e}}()}(window.Zepto||window.jQuery);
